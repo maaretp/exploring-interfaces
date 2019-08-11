@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 
+	//documentation: https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/master/GildedRoseRequirements.txt
+	
 	@Test
 	public void TestSomething() {
 		GildedRose app = checkItem("something", 0, 0);
