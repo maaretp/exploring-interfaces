@@ -3,6 +3,7 @@
   * JUnit
   * ApprovalTests
   * RestAssured
+  * Selenium WebDriver
   
 Publicly available APIs listing  -- https://github.com/public-apis/public-apis
 
