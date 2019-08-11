@@ -1,0 +1,37 @@
+<html>
+<header>
+<script type="text/javascript">
+function press() {
+var text = document.getElementById("box").value;
+var number = Math.floor(Math.random() * lines.length);
+document.getElementById("output").innerHTML=(lines[number]);
+}
+
+var lines = `
+Testers don't break the code, they break your illusions about the code.
+For an idea to go from your head to the computer it must go through someone else's hands.
+We aren't here to make a great product or a great company, but rather to make our customers awesome at whatever they do with our products or services.
+What ever anybody says or does, assume positive intent.
+Test automation isn't about automating manual tests, it's decomposing the testing differently so automation makes sense.
+Programming is like writing. Getting started is easy and it takes a lifetime to get good at.
+The value of another's experience is to give us hope, not to tell us how or whether to proceed.
+I had great ideas even if I did not know how to turn them to code - removing the distance is worth the struggle.
+Best ideas win when you care about work over credit.
+The future is already here - it's just not very evenly distributed.
+People aren't afraid of failure, they're afraid of blame.
+Who is on a team matters less than how the team members interact, structure their work, and view their contributions.
+All the brilliant people working on the same thing, at the same time, in the same space, on the same computer.
+It's about getting the best out of your team into the work you do.
+Don't point fingers, don't use shame hats. If people can't admit mistakes, you won't learn about them and won't fix'em.
+If it's your decision to make, it's design. If it's not, it's a requirement.
+`.trim().split("\n");
+</script>
+</header>
+<body>
+<form>
+<input id="box" type="text">
+<input id="button" type="button" value="ok" onclick="press()">
+<div id="output"></div>
+</form>
+</body>
+</html>
