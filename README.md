@@ -1,2 +1,7 @@
-# exploring-interfaces
-Starter project for exploring programming interfaces
+# Java Exploring Programmatic Interfaces Starter Set
+
+  * Junit
+  * ApprovalTests
+  * RestAssured
+  
+Publicly available APIs listing  -- https://github.com/public-apis/public-apis
