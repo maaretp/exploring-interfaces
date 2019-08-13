@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 public class ExploreZipApi extends TestCase {
 
 		public void testZip() throws Exception {
-			 Response response = given().get("http://api.zippopotam.us/us/20500");
+			 Response response = given().get("https://api.zippopotam.us/JE/JE3");
 			 Approvals.verify("status code: " + response.getStatusCode() 
 			 			+ "\n" + "headers: \n"
 			 			+ response.headers().toString()

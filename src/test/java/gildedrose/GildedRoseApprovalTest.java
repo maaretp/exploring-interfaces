@@ -1,6 +1,5 @@
 package gildedrose;
 
-import org.approvaltests.Approvals;
 import org.approvaltests.combinations.CombinationApprovals;
 import org.approvaltests.legacycode.Range;
 
@@ -9,9 +8,9 @@ import junit.framework.TestCase;
 public class GildedRoseApprovalTest extends TestCase {
 
 	public void testSomething() throws Exception {
-		String[] items = {"foo"};
-		Integer[] sellins = {0};
-		Integer[] qualities = {0};
+		String[] items = { "something","Aged Brie", "Sulfuras", "Sulfuras, Hand of Ragnaros", "Backstage passes to a TAFKAL80ETC concert"};
+		Integer[] sellins = {0, 1, 5, 6, 10, 50, Integer.MAX_VALUE};
+		Integer[] qualities = {-1, 0, 50, 61, 80, Integer.MAX_VALUE};
 		CombinationApprovals.verifyAllCombinations(this::checkItem, items, sellins, qualities);
 	}
 	

@@ -1,0 +1,37 @@
+status code: 200
+headers: 
+Date=Tue, 13 Aug 2019 19:54:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Set-Cookie=__cfduid=dc7878dc4244b27761a728091a2849a0e1565726061; expires=Wed, 12-Aug-20 19:54:21 GMT; path=/; domain=.zippopotam.us; HttpOnly
+X-Cache=hit
+Charset=UTF-8
+Vary=Accept-Encoding
+Access-Control-Allow-Origin=*
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server=cloudflare
+CF-RAY=505d3d8cee17d266-DFW
+Content-Encoding=gzip
+body: 
+{
+    "post code": "JE3",
+    "country": "Jersey",
+    "country abbreviation": "JE",
+    "places": [
+        {
+            "place name": "St Brelades",
+            "longitude": "-2.1333",
+            "state": "",
+            "state abbreviation": "",
+            "latitude": "49.2"
+        },
+        {
+            "place name": "St Lawrence",
+            "longitude": "-2.1333",
+            "state": "",
+            "state abbreviation": "",
+            "latitude": "49.2"
+        }
+    ]
+}
